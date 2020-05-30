@@ -32,7 +32,7 @@ def check_dia(char):
     return char == zellen[0][0] == zellen[1][1] == zellen[2][2] or char == zellen[0][2] == zellen[1][1] == zellen[2][0]    
 
 
-# eingegebene Koordinaten in zwei Variablen
+# eingegebene Koordinaten in zwei Variablen speichern
 def get_coordinates(): 
     global x_koordinate, y_koordinate
     try:
