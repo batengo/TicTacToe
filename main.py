@@ -74,7 +74,7 @@ def print_coordinates(x, y):
         get_coordinates()
 
 
-# Analyse des Spielfeldes bezüglich der Gewinner
+# Analyse des Spielfeldes bezüglich des Gewinners
 def print_analysis():
     if check_row("X") or check_col("X") or check_dia("X"):
         print("X wins")
